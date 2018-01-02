@@ -47,14 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MigrationOptions.cs" />
+    <Compile Include="Migrations\ASPNETIdentityDatabase.cs" />
     <Compile Include="Migrator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
