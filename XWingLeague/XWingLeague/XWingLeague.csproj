@@ -255,6 +255,12 @@
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XWingLeague.DatabaseMigrations\XWingLeague.DatabaseMigrations.csproj">
+      <Project>{5bbf59c0-71ae-4e1f-a80d-8a9bb47c33d2}</Project>
+      <Name>XWingLeague.DatabaseMigrations</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
